@@ -24,7 +24,7 @@ Supported migration approaches:
 - DB client installed (mysql / psql)
 
 ## 🏗️ Architecture
-![alt text](migration/rds.jpeg)
+![alt text](./IMG/rds.jpeg)
 
 
 
@@ -49,16 +49,16 @@ sudo mysql -h endpoint_of_RDS -u root/admin -p DB_name_of_RDS < file_name_backup
 ```
 ### 3️⃣ Database Migration Service Diagram
 
-![](migration/architure.jpeg)
+![](./IMG/architure.jpeg)
  
  ### 4️⃣ Output
 
  ## Traditional Databases record
- ![](migration/1.png)
- ![](migration/2.png)
+ ![](./IMG/1.png)
+ ![](./IMG/2.png)
 
 ## Map with RDS (Traditional -> RDS)
- ![](migration/3.png)
+ ![](./IMG/3.png)
 
 ## 📌 Summary 
 #### Transfer data or database object from source database (traditional) to destination database (RDS)
