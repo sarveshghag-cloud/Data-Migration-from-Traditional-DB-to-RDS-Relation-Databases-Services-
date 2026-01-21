@@ -1,18 +1,18 @@
 # Data Migration from Traditional DB to RDS (Relation Databases Services)
 
-## 📌 Overview
+##  Overview
 This guide explains how to migrate databases to Amazon RDS with minimal downtime.
 Supported migration approaches:
 
-🔁 RDS Snapshot Migration
+RDS Snapshot Migration
 
-🚚 Dump & Restore
+ Dump & Restore
 
 ---
 ##  Migration Options
-## 1️⃣ Snapshot Migration (Traditional_DB → RDS Only) ##
+##  Snapshot Migration (Traditional_DB → RDS Only) ##
 
- **✅ Prerequisites**<br>
+ ** Prerequisites**<br>
 -  AWS Account
 
 -  RDS instance created
@@ -23,7 +23,7 @@ Supported migration approaches:
 
 - DB client installed (mysql / psql)
 
-## 🏗️ Architecture
+##  Architecture
 ![alt text](./IMG/rds.jpeg)
 
 
